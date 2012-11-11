@@ -20,7 +20,6 @@ class Neurona(object):
         condicion=self.generar()
         print pesos
         print condicion
-        raw_input()
         self.entradas(num,pesos,condicion)
         
 
